@@ -27,5 +27,11 @@ def feature2():
     return jsonify({"status": "ok", "message": "要找下午上班的公司"})
 
 
+@app.route("/feature3")
+def feature3():
+    """Feature 3：晚上活動提醒。"""
+    return jsonify({"status": "ok", "message": "晚上喝咖啡"})
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=19191, debug=True)
