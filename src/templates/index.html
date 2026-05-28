@@ -103,6 +103,12 @@
       box-shadow: 0 8px 24px rgba(0, 198, 251, 0.35);
     }
 
+    .btn-feature3 {
+      background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+      color: #1a0030;
+      box-shadow: 0 8px 24px rgba(161, 140, 209, 0.45);
+    }
+
     /* 結果彈出卡 */
     .result-toast {
       position: fixed;
@@ -139,7 +145,7 @@
     </div>
 
     <p class="card-desc">
-      系統已動態串接兩大情境功能，包含早晨台股搓合盤與下午上班企業門戶：
+      系統已動態串接三大情境功能，包含早晨台股搓合盤、下午上班企業門戶與晚間活動提醒：
     </p>
 
     <button id="btn-feature1" class="btn btn-feature1" onclick="callFeature('/feature1')">
@@ -148,6 +154,10 @@
 
     <button id="btn-feature2" class="btn btn-feature2" onclick="callFeature('/feature2')">
       🗂️ 下午上班企業簽到門戶 (Feature 2)
+    </button>
+
+    <button id="btn-feature3" class="btn btn-feature3" onclick="callFeature('/feature3')">
+      ☕ 晚上活動 (Feature 3)
     </button>
   </div>
 

@@ -1,0 +1,24 @@
+# Git
+.git
+.gitignore
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Test files (不需要打包進 Image)
+test/
+.pytest_cache/
+
+# Docker 自己
+Dockerfile
+.dockerignore
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
